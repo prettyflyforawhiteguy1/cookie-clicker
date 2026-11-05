@@ -1,0 +1,30 @@
+button{
+    width: auto;
+    height: auto;
+}
+.centertxt{
+    text-align: center;
+}
+noscript{
+    font-size: x-large;
+    color: red;
+}
+th, td{
+    display: block;
+    border-right: 1px;
+    border-color: black;
+}
+td{
+    border-bottom: 1px;
+    color: black;
+}
+.cbutton{
+    height: auto;
+    width: auto;
+    background-image: url(sprites/button1.png);
+    background-size: cover;
+}
+.cbutton :active{
+    background-image: url(sprites/button1click.png);
+}
+/* this is a work in progress ^ */
